@@ -183,10 +183,7 @@ def registrar_scooter():
     precio = float(input("Precio: $"))
     scooter = Scooter(marca, peso, aro, velocidad, eficiencia, precio)
     scooters.append(scooter)
-    print("Características del Scooter registrado:")
-    scooter.imprimir_caracteristicas()
-    costo_despacho = scooter.calcular_despacho()
-    print(f"Costo de despacho: ${costo_despacho:}")
+    print("Scooter registrado con exito.")
 
 def registrar_bicicleta():
     marca = input("Marca: ")
